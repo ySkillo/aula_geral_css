@@ -20,10 +20,24 @@
  header{
      position: fixed;
      display: flex;
-     justify-content: space-evenly;
-     top: 20px;
+     justify-content: space-between;
+     padding: 0px 60px;
+     top: 25px;
      width: 100%;
      align-items: center;
+
+ }
+ header .box-nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    
+ }
+ header .box-nav-btn{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    
  }
  header a h1 span{
      color: #ff7f00;
@@ -36,6 +50,7 @@
      flex-direction: row;
      width: 700px;
      gap: 60px;
+
  }
  header nav .menu-primario{
      display: block;
@@ -73,6 +88,16 @@
      border-radius: 10px;
      font-size: 1.2rem;
      font-weight: 200;
+ }
+ header .botao-login{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 10px 0px 10px;
+    color: #fff;
+    background: #ff7f00;
  }
  .home{
      width: 100%;
